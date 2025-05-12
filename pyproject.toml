@@ -1,0 +1,17 @@
+[project]
+name = "parse-youtube-video"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Sustavov Maksim",email = "maksim.sustavov@edgecenter.ru"}
+]
+readme = "README.md"
+requires-python = "3.12"
+dependencies = [
+    "pytube (>=15.0.0,<16.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
